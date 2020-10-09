@@ -1,0 +1,8 @@
+nome = str(input('Digite o seu nome competo: ')).strip()
+dividido = nome.split()
+espacos = nome.count(' ')
+print(nome.upper())
+print(nome.lower())
+print(f'O seu nome tem {len(nome)-espacos} letras.')
+print(f'O seu primeiro nome contem {len(dividido[0])} letras.')
+print(f'O seu primeiro nome contem  {nome.find(" ")} letras.')
